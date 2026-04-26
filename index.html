@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Jerry Is Bad</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <div class="controls" aria-label="Page controls">
+        <button class="control-button" id="fullscreenButton" type="button">
+          Full Screen
+        </button>
+      </div>
+
+      <section class="stage" id="stage" tabindex="0" aria-label="Jerry message stage">
+        <div class="message-frame" id="messageFrame">
+          <div class="message" id="message" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
