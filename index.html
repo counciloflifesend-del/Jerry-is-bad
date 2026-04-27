@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jerry Is Bad</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="stage" class="stage poster" aria-live="polite" tabindex="0">
+      <p class="sr-only">Press space, enter, or click anywhere to show another random Jerry is bad page.</p>
+      <button id="fullscreenButton" class="fullscreen-button" type="button" aria-label="Enter fullscreen">
+        <span class="fullscreen-icon fullscreen-icon-enter" aria-hidden="true"></span>
+        <span id="fullscreenButtonText" class="fullscreen-button-text" aria-hidden="true">Full</span>
+      </button>
+      <section class="message-wrap" aria-label="Random Jerry verdict">
+        <p id="message" class="message"></p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
